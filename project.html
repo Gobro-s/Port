@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOON | Project</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">H</span>HOON</a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="profile.html" data-i18n="navProfile">Profile</a>
+        <a href="project.html" class="active" data-i18n="navProject">Project</a>
+        <a href="contact.html" data-i18n="navContact">Contact</a>
+        <button class="lang-toggle" data-lang-toggle>KR / EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page" data-project-root>
+    <section class="section-head">
+      <div>
+        <div class="eyebrow" data-i18n="projectEyebrow">Projects</div>
+        <h1 style="margin:12px 0 0;font-size:clamp(2.2rem,3vw,3rem);letter-spacing:-.04em;" data-i18n="projectTitle">문제 정의부터 화면 구현까지</h1>
+      </div>
+      <p data-i18n="projectDesc">프로젝트는 최근순이 아니라 강점이 잘 드러나는 순서로 재배치했습니다.</p>
+    </section>
+
+    <section class="project-layout">
+      <aside class="project-sidebar">
+        <div class="eyebrow" data-i18n="sidebarTitle">Project Index</div>
+        <div class="project-nav" style="margin-top:18px;">
+          <button class="project-tab active" data-project-tab="voda"><strong data-i18n="vodaTabTitle">VODA</strong><span data-i18n="vodaTabDesc">접근성 중심 영상통화</span></button>
+          <button class="project-tab" data-project-tab="haruman"><strong data-i18n="harumanTabTitle">HARUMAN</strong><span data-i18n="harumanTabDesc">소비 분석 금융 서비스</span></button>
+          <button class="project-tab" data-project-tab="od"><strong data-i18n="odTabTitle">Open The Door</strong><span data-i18n="odTabDesc">예약 플랫폼</span></button>
+          <button class="project-tab" data-project-tab="rebin"><strong data-i18n="rebinTabTitle">ReBin</strong><span data-i18n="rebinTabDesc">자동 분리수거 쓰레기통</span></button>
+        </div>
+      </aside>
+
+      <section class="project-display">
+        <div class="project-image" data-project-image></div>
+        <div class="project-header">
+          <div>
+            <h2 data-project-title>VODA</h2>
+            <p class="project-subtitle" data-project-subtitle></p>
+          </div>
+          <ul class="project-meta" data-project-meta></ul>
+        </div>
+
+        <div class="project-sections">
+          <div class="project-block">
+            <h3 data-i18n="projOverview">Overview</h3>
+            <p data-project-overview></p>
+          </div>
+          <div class="project-block">
+            <h3 data-i18n="projRole">Role</h3>
+            <ul class="project-bullets" data-project-role></ul>
+          </div>
+          <div class="project-block">
+            <h3 data-i18n="projTech">Tech Stack</h3>
+            <ul class="project-bullets" data-project-tech></ul>
+          </div>
+          <div class="project-block">
+            <h3 data-i18n="projProblem">Problem & Solution</h3>
+            <p data-project-problem></p>
+          </div>
+          <div class="project-block">
+            <h3 data-i18n="projFeatures">Key Features</h3>
+            <ul class="project-bullets" data-project-features></ul>
+          </div>
+          <div class="project-block">
+            <h3 data-i18n="projOutcome">Outcome</h3>
+            <ul class="project-bullets" data-project-outcome></ul>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer" data-i18n="footer">HOON portfolio template. Replace texts and images with your final content.</footer>
+  <script src="js/i18n.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

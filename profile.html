@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOON | Profile</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">H</span>HOON</a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="profile.html" class="active" data-i18n="navProfile">Profile</a>
+        <a href="project.html" data-i18n="navProject">Project</a>
+        <a href="contact.html" data-i18n="navContact">Contact</a>
+        <button class="lang-toggle" data-lang-toggle>KR / EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="page-hero">
+      <div class="about-block">
+        <div class="eyebrow" data-i18n="profileEyebrow">Profile</div>
+        <h1 style="margin:16px 0 14px;font-size:clamp(2.2rem,2.5vw,4rem);letter-spacing:-.04em;" data-i18n="profileTitle">기술을 사람에게 맞추는 개발자</h1>
+        <p class="about-copy" data-i18n="profileDesc">기능 구현에 그치지 않고, 실제 사용자가 어떻게 느끼고 사용하는지까지 고려하는 포트폴리오를 지향합니다.</p>
+        <div class="info-grid">
+          <div class="info-item"><small data-i18n="info1Label">이름</small><strong data-i18n="info1Value">고세훈</strong></div>
+          <div class="info-item"><small data-i18n="info2Label">한 줄 소개</small><strong data-i18n="info2Value">사람을 향한 기술을 만드는 개발자</strong></div>
+          <div class="info-item"><small data-i18n="info3Label">전공</small><strong data-i18n="info3Value">에너지공학과</strong></div>
+          <div class="info-item"><small data-i18n="info4Label">지향점</small><strong data-i18n="info4Value">사용자 중심 · 문제 해결 · 서비스 구현</strong></div>
+        </div>
+      </div>
+      <div class="stack-panel">
+        <h2 data-i18n="aboutTitle">About Me</h2>
+        <p class="about-copy" data-i18n="aboutBody">사용자 경험을 중심으로 문제를 해결하는 프론트엔드 개발자입니다. 컴포넌트 구조화를 통해 재사용성과 확장성을 높이고, 빠른 디지털 전환 속에서 소외될 수 있는 사용자까지 고려하는 서비스를 만들고자 합니다.</p>
+        <div class="tags" style="margin-top:20px;">
+          <span class="tag">React</span><span class="tag">React Native</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">Python</span><span class="tag">Django</span><span class="tag">Redux</span><span class="tag">Recoil</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-2">
+      <div class="timeline">
+        <div class="section-head" style="margin-bottom:18px;display:block;">
+          <div class="eyebrow">Education</div>
+          <h2 data-i18n="eduTitle">Education</h2>
+        </div>
+        <div class="timeline-list">
+          <div class="timeline-item">
+            <div class="date" data-i18n="edu1Date">2016.03 - 2022.02</div>
+            <strong data-i18n="edu1Name">강원대학교 에너지공학과</strong>
+            <p data-i18n="edu1Desc">공학적 문제 해결과 분석 기반 사고를 바탕으로 IT 역량을 확장했습니다.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="date" data-i18n="edu2Date">2023.01 - 2023.12</div>
+            <strong data-i18n="edu2Name">삼성 청년 SW 아카데미 SSAFY 9기</strong>
+            <p data-i18n="edu2Desc">프로젝트 기반 웹 개발 교육, 협업, 발표, 서비스 구현 경험을 집중적으로 쌓았습니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="section-head" style="margin-bottom:18px;display:block;">
+          <div class="eyebrow">Experience</div>
+          <h2 data-i18n="expTitle">Experience</h2>
+        </div>
+        <div class="timeline-list">
+          <div class="timeline-item">
+            <div class="date" data-i18n="exp1Date">프로젝트 수행 경험</div>
+            <strong data-i18n="exp1Name">프론트엔드 리드 / UI·UX 설계 / 발표</strong>
+            <p data-i18n="exp1Desc">프론트엔드 주도 개발, 화면 설계, 사용자 피드백 반영, 프로젝트 발표 경험</p>
+          </div>
+          <div class="timeline-item">
+            <div class="date" data-i18n="exp2Date">협업 환경</div>
+            <strong data-i18n="exp2Name">Git · Jira · Notion · Figma · Mattermost · Slack</strong>
+            <p data-i18n="exp2Desc">버전 관리, 일정 관리, 문서화, 커뮤니케이션 경험</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-2" style="margin-top:22px;">
+      <div class="card">
+        <h3 data-i18n="quaTitle">Qualifications & Awards</h3>
+        <p data-i18n="quaBody">빅데이터 분석기사, 정보처리기사, SQLD, 컴퓨터활용능력 1급, 워드프로세서 2급, TOEIC Speaking AL, 한국사 2급, KBS 한국어능력검정 3+ / SSAFY 자율 프로젝트 우수상, 공통 프로젝트 우수상, 최우수 UCC, 특화 프로젝트 베스트 멤버</p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="stackTitle">Main Tech</h3>
+        <p data-i18n="stackBody">React, React Native, TypeScript, JavaScript, Python, Django, Redux, Recoil, Chart.js, D3, Git, Jira, Notion, Figma</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-i18n="footer">HOON portfolio template. Replace texts and images with your final content.</footer>
+  <script src="js/i18n.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
